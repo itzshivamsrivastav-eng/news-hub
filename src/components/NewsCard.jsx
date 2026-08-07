@@ -65,10 +65,12 @@ function NewsCard({ article }) {
         {article.author || "Unknown Author"}
       </small>
 
+      <hr className="divider" />
+
       <br />
 
-      <button onClick={toggleBookmark}>
-        {bookmarked ? "⭐ Bookmarked" : "☆ Bookmark"}
+      <button onClick={toggleBookmark} className="theme-toggle-light">
+        {bookmarked ? "❤️Bookmarked" : "🩶 Bookmark"}
       </button>
 
       <br /><br />

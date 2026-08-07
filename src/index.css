@@ -85,13 +85,23 @@ input{
 
 }
 
+body {
+  padding-top: 100px;
+}
+
 .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     display:flex;
     justify-content:space-between;
     align-items:center;
     padding:15px 25px;
     background:#222;
     color:white;
+    box-sizing: border-box;
 }
 
 body.dark .navbar{
@@ -196,4 +206,17 @@ body.dark{
     cursor: pointer;
     border-radius: 30px;
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.divider {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 8px 0;
+}
+
+.theme-toggle-light:hover {
+    background-color: yellow;
+    color: red;
+    cursor: pointer;
 }
