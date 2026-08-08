@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Category from "./pages/Category";
 
+import Contact from "./pages/Contact";
+
 
 import Bookmarks from "./pages/Bookmarks";
 
@@ -18,6 +20,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/category/:category" element={<Category />} />
+      <Route path="/contact" element={<Contact />} />
       <Route path="/bookmarks" element={<Bookmarks />} />
     </Routes>
     </ThemeProvider>

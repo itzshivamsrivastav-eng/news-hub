@@ -38,6 +38,10 @@ function Navbar() {
           </NavLink>
         ))}
 
+        <NavLink to="/contact">
+          Contact Us
+        </NavLink>
+
         <NavLink to="/bookmarks">
           Bookmarks
         </NavLink>

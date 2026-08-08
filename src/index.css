@@ -220,13 +220,49 @@ body.dark{
     color: red;
     cursor: pointer;
 }
+
+.contact-image {
+    display: block;
+    width: 80%;
+    max-width: 1100px;
+    margin: 40px auto;
+}.contact-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    url("/searchBg.png");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.contact-page h1 {
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+
+.contact-page p {
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+.contact-image {
+  width: min(700px, 90%);
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
 @media (max-width: 600px) {
 
   .theme-toggle-light,
   .theme-toggle-dark {
-    padding: 8px 14px;
+    padding: 8px 10px;
     border-radius: 25px;
-    font-size: 14px;
+    font-size: 18px;
     white-space: nowrap;
   }
 
