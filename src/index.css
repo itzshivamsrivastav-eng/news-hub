@@ -216,7 +216,72 @@ body.dark{
 }
 
 .theme-toggle-light:hover {
-    background-color: rgb(204, 163, 199);
+    background-color: rgb(251, 164, 241);
     color: red;
     cursor: pointer;
+}
+@media (max-width: 600px) {
+
+  .theme-toggle-light,
+  .theme-toggle-dark {
+    padding: 8px 14px;
+    border-radius: 25px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  body {
+    padding-top: 130px;
+  }
+
+  .navbar {
+    padding: 12px 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  .theme-toggle-light,
+  .theme-toggle-dark {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  .news-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .news-card img {
+    height: 200px;
+  }
+
+  .news-card h2 {
+    font-size: 18px;
+  }
+
+  .news-card p {
+    font-size: 14px;
+  }
+
+  input {
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    font-size: 16px;
+  }
 }
