@@ -216,7 +216,7 @@ body.dark{
 }
 
 .theme-toggle-light:hover {
-    background-color: yellow;
+    background-color: rgb(204, 163, 199);
     color: red;
     cursor: pointer;
 }

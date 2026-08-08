@@ -21,7 +21,7 @@ function Navbar() {
   return (
     <nav className="navbar">
 
-      <h2>NewsHub</h2>
+      <h2>Newzzz</h2>
 
       <div className="nav-links">
 
